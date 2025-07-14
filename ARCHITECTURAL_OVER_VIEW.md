@@ -8,19 +8,19 @@ This document outlines a comprehensive, enterprise-grade testing framework built
 
 ### 1. Clean Separation of Concerns
 
-[![Clean Seperation of Concers](./docs/images/clean-seperation-of-concers.png)
+![Clean Seperation of Concers](./docs/images/clean-seperation-of-concers.png)
 
 ### 2. Site-Centric Design Pattern
 
 The **Site** serves as the primary facade providing unified access to all testing capabilities:
 
-[![Site Centric Design Pattern](./docs/images/site-centric-design.png)
+![Site Centric Design Pattern](./docs/images/site-centric-design.png)
 
 ## Framework Architecture Layers
 
 ### 1. UI Testing Layer
 
-[![UI Testing Layer](./docs/images/ui-testing-layers.png)
+![UI Testing Layer](./docs/images/ui-testing-layers.png)
 
 **Key Components:**
 - **Pages**: Container-based page objects with element registration
@@ -30,7 +30,7 @@ The **Site** serves as the primary facade providing unified access to all testin
 
 ### 2. API Testing Layer
 
-[![API Testing Layer](./docs/images/api-testing-layer.png)
+![API Testing Layer](./docs/images/api-testing-layer.png)
 
 **Key Components:**
 - **Service Wrappers**: Type-safe API client wrappers
@@ -40,7 +40,7 @@ The **Site** serves as the primary facade providing unified access to all testin
 
 ### 3. Infrastructure Testing Layer
 
-[![Infrastructure Testing Layer](./docs/images/tool-wrappers.png)
+![Infrastructure Testing Layer](./docs/images/tool-wrappers.png)
 
 **Key Components:**
 - **External System Clients**: SSH, databases, message queues, cloud services
@@ -50,7 +50,7 @@ The **Site** serves as the primary facade providing unified access to all testin
 
 ### 4. ML Visual Validation Layer
 
-[![ML Visual Validation Layer](./docs/images/ml-visual-validation.png)
+![ML Visual Validation Layer](./docs/images/ml-visual-validation.png)
 
 **Key Components:**
 - **Training Pipeline**: Screenshot collection, preprocessing, model training
@@ -60,7 +60,7 @@ The **Site** serves as the primary facade providing unified access to all testin
 
 ## Directory Structure & Organization
 
-[![Directory Structure](./docs/images/directory-structure.png)
+![Directory Structure](./docs/images/directory-structure.png)
 
 ### Framework Organization Principles
 
@@ -73,57 +73,57 @@ The **Site** serves as the primary facade providing unified access to all testin
 
 ### 1. UI-Only Testing Flow
 
-[![UI Only Testing](./docs/images/ui-only-test-flow.png)
+![UI Only Testing](./docs/images/ui-only-test-flow.png)
 
 ### 2. API + UI Integration Testing Flow
 
-[![UI API Testing](./docs/images/ui-api-test-flow.png)
+![UI API Testing](./docs/images/ui-api-test-flow.png)
 
 ### 3. Complete Integration Testing Flow
 
-[![Complete Flow](./docs/images/complete-integration-test-flow.png)
+![Complete Flow](./docs/images/complete-integration-test-flow.png)
 
 ## ML Visual Validation Architecture
 
 ### Training Workflow
 
-[![Training Workflow](./docs/images/ml-training-workflow.png)
+![Training Workflow](./docs/images/ml-training-workflow.png)
 
 ### Detection Workflow
 
-[![Detection Workflow](./docs/images/ml-detection-workflow.png)
+![Detection Workflow](./docs/images/ml-detection-workflow.png)
 
 ## Service Architecture & Mocking
 
 ### Service Layer Design
 
-[![Service Layer Design](./docs/images/service-layer-design.png)
+![Service Layer Design](./docs/images/service-layer-design.png)
 
 ### Mocking Strategy
 
-[![Mocking Strategy](./docs/images/mocking-strategy.png)
+![Mocking Strategy](./docs/images/mocking-strategy.png)
 
 ## Tool Integration Architecture
 
 ### External System Connections
 
-[![Tool Integration Architecture](./docs/images/tool-integration-architecture.png)
+![Tool Integration Architecture](./docs/images/tool-integration-architecture.png)
 
 ## Configuration Management
 
 ### Multi-Environment Configuration
 
-[![Configuration Management](./docs/images/configuration-management.png)
+![Configuration Management](./docs/images/configuration-management.png)
 
 ## Performance & Scalability
 
 ### Parallel Execution Strategy
 
-[![Parallel Execution Strategy](./docs/images/parallel-execution-strategy.png)
+![Parallel Execution Strategy](./docs/images/parallel-execution-strategy.png)
 
 ### Resource Management
 
-[![Resource Management](./docs/images/resource-management.png)
+![Resource Management](./docs/images/resource-management.png)
 
 ## Usage Examples
 
